@@ -33,3 +33,61 @@ Team Members & Responsibilities:
 
 Team Collaboration
 All team members contribute to reviewing the documents, sharing feedback, and preparing the project deliverables.
+___________________________________________________________________________________________________________________________________________________________________
+Phase 2 – System Analysis & Design
+Project Overview
+This project aims to analyze the Superstore Sales Dataset to evaluate sales performance, identify trends, and generate insights that support better business decisions using Power BI.
+1. Problem Definition
+The project focuses on transforming raw sales data into meaningful information by analyzing orders, customers, products, sales, and geographical performance.
+Main Objectives:
+- Analyze sales and order performance.
+- Identify top-selling products and categories.
+- Compare sales across regions and customer segments.
+- Track sales trends over time.
+- Develop interactive Power BI dashboards.
+ 2. Use Case Diagram
+Defines how the **Business User / Sales Manager** interacts with the system through:
+- View Sales Dashboard and KPIs.
+- Analyze Sales by Region.
+- Analyze Products and Categories.
+- Analyze Customer Segments.
+- Analyze Sales Trends.
+- Apply Filters and View Insights.
+3. Entity Relationship Diagram (ERD)
+The current data model consists of two tables:
+- Clean Data:Contains order, customer, product, sales, and geographical information.
+- DateTable:Contains Date, Day, Month, Month Number, Quarter, and Year.
+Relationship:
+`DateTable[Date] (1) → Clean Data[Order Date] (*)`
+The relationship supports time-based sales analysis.
+ 4. Data Flow Diagram (DFD)
+The DFD describes the main data processing workflow:
+1. Import Data.
+2. Clean & Transform Data.
+3. Model Data.
+4. Analyze & Visualize Data.
+Both Level 0 and Level 1 diagrams were prepared to represent the system overview and detailed processes.
+ 5. Dashboard Wireframes
+Initial layouts were designed for three dashboard pages:
+- Sales Overview:** Overall sales performance, KPIs, trends, and regional analysis.
+- Product Analysis:** Product rankings, categories, and sub-categories.
+- Customer & Geographic Analysis:** Customer segments, top customers, and geographical sales distribution.
+ 6. Technology Stack
+   Technology : Purpose 
+ Microsoft Excel : Data source and inspection 
+ Power Query : Data cleaning and transformation 
+ Power BI Desktop : Datamodeling and visualization 
+ DAX : Measures and KPI calculations 
+ GitHub : Documentation and collaboration 
+ 
+Phase 2 Deliverables
+- Problem Definition
+- Use Case Diagram
+- ERD
+- DFD Level 0 & Level 1
+- Dashboard Wireframes
+- Technology Stack
+Next Phase: Implementation
+Data preparation, modeling, DAX calculations, business insights, and Power BI dashboard development.
+Program:Digital Egypt Pioneers Initiative (DEPI)  
+Project: Store Sales Data Analysis
